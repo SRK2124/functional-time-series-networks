@@ -1,7 +1,7 @@
 # Detecting Structural Breaks in Functional Time Series: An Application to Yield Curve Networks
 
 ### 1. Motivation
-In complex scientific and economic fields, observations are frequently collected as continuous functions—such as yield curves—rather than simple scalar measurements. These functional time series exhibit non-stationarity and temporal dependence, complicating conventional statistical inference.
+In complex scientific and economic fields, observations are frequently collected as continuous functions, such as yield curves. These functional time series exhibit non-stationarity and temporal dependence, complicating conventional statistical inference.
 
 This project explores the dynamic conditional dependence structure of the US Treasury yield curve. By modeling different maturities as nodes in a time-varying network, the objective is to:
 1. Estimate sparse precision matrices over rolling windows, rigorously controlling for false connections inherent in dependent data.
